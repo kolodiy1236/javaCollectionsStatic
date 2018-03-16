@@ -17,17 +17,19 @@ public class Person<T> {
     
     private static int count;
     //step2: static var
-    
-    static{
+    static Person Ric= new Person();
+    static {
     
         count = 0;
     }
     
     //step1: private
-    public Person(){
+     private Person(){
         count++;
     }
-    
+    static Person getInstance(){
+        return Ric;
+    }
     //step3: static method getInstance()
     
     public static int size(){

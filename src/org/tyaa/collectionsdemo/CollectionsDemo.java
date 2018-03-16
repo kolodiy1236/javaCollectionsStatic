@@ -72,14 +72,14 @@ public class CollectionsDemo {
         
         List<Person> persons = new ArrayList<>();
         
-        p1.setSalary(22);
+       // p1.setSalary(22);
         //p2.setSalary(120d);
         //p2.setSalary((Double.valueOf("120")));
-        p2.setSalary((Double.valueOf(String.valueOf(120))));
+       // p2.setSalary((Double.valueOf(String.valueOf(120))));
         
         Person<Integer> p3 = new Person<>();
         
-        p3 = null;
+       //p3 = null;
         
         /*String result = "";
         for (int j = 0; j < 1000; j++) {
@@ -97,6 +97,7 @@ public class CollectionsDemo {
         
         //System.out.println(p4.age);
         //System.out.println(p5.age);
+        Person Ric = new Person();
     }
     
 }
